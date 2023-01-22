@@ -1,0 +1,406 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Alec Rice - Data Analyst</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="freehtml5.co" />
+
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<!-- <div class="top-menu"> -->
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 text-center logo-wrap">
+						<div id="fh5co-logo"><a href="index.html">Alec Rice<span>.</span></a></div>
+					</div>
+					<div class="col-xs-12 text-center menu-1 menu-wrap">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+						<!-- 	<li class="active"><a href="portfolio.html">Portolio</a></li> -->
+							        <li class="has-dropdown">
+								 <a href="TopGun.html">Portfolio</a>
+								<ul class="dropdown">
+									<li><a href="TopGun.html">Top Gun: Maverick Twitter Sentiment Analysis</a></li>
+									<li><a href="Covid19.html">Global COVID-19 Vaccine Tracker</a></li>
+									 <!--<li><a href="#">Coffees</a></li> -->
+								</ul>
+							</li>
+							 <!-- <li><a href="reservation.html">Reservation</a></li> -->
+							<li><a href="index.html">About</a></li>
+							<li><a href="index.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			
+			</div>
+		</div> 
+	</nav>
+
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<h1>Top Gun: Maverick</h1>
+						<h2>A Twitter Sentiment Analysis</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="fh5co-featured-menu" class="fh5co-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 fh5co-heading animate-box">
+					<h2 id="dashboard" style="font-family: 'Times New Roman', Times, serif;">Top Gun: Maverick Twitter Sentiment Dashboard</h2>
+					<div class="row">
+						<div class="col-md-6">
+							<p>Below you will find a sentiment analysis dashboard created through Tableau. In this project, I scraped 250,000 tweets using Python, implemented an NLP model (RoBERTa) to calculate sentiment per tweet, as well as extract extensive location data through Nominatim. Below the dashboard you will find an explanation of the steps taken for this project.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+	     	</div>
+				
+			 <style>
+				.tableau-center {
+				  width: 2349px;
+				  margin-left: auto;
+				  margin-right: auto;
+				}
+			  </style>
+			  <div class="tableau-center">
+				<div textclass='tableauPlaceholder' id='viz1674242059827' style='position: relative'><noscript><a href='#'><img alt='TopGunMaverickDashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NF&#47;NFTHTDWCW&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;NFTHTDWCW' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NF&#47;NFTHTDWCW&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1674242059827');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='2349px';vizElement.style.height='1291px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='2349px';vizElement.style.height='1291px';} else { vizElement.style.width='100%';vizElement.style.height='3227px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+			</div>
+			</div>
+			</div>
+
+		
+		<!-- 
+				<div class="container">
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap">
+					<div class="fh5co-item animate-box">
+						<img src="images/gallery_1.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+						<h3>Bake Potato Pizza</h3>
+						<span class="fh5co-price">$20<sup>.50</sup></span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+					</div>
+					<div class="fh5co-item animate-box">
+						<img src="images/gallery_2.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+						<h3>Bake Potato Pizza</h3>
+						<span class="fh5co-price">$20<sup>.50</sup></span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap">
+					<div class="fh5co-item margin_top animate-box">
+						<img src="images/gallery_3.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+						<h3>Salted Fried Chicken</h3>
+						<span class="fh5co-price">$19<sup>.00</sup></span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+					</div>
+					<div class="fh5co-item animate-box">
+						<img src="images/gallery_4.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+						<h3>Bake Potato Pizza</h3>
+						<span class="fh5co-price">$20<sup>.50</sup></span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+					</div>
+				</div>
+				<div class="clearfix visible-sm-block visible-xs-block"></div>
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap">
+					<div class="fh5co-item animate-box">
+						<img src="images/gallery_5.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+						<h3>Italian Sauce Mushroom</h3>
+						<span class="fh5co-price">$17<sup>.99</sup></span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+					</div>
+					<div class="fh5co-item animate-box">
+						<img src="images/gallery_6.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+						<h3>Bake Potato Pizza</h3>
+						<span class="fh5co-price">$20<sup>.50</sup></span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap">
+					<div class="fh5co-item margin_top animate-box">
+						<img src="images/gallery_7.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+						<h3>Fried Potato w/ Garlic</h3>
+						<span class="fh5co-price">$22<sup>.50</sup></span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+					</div>
+					<div class="fh5co-item animate-box">
+						<img src="images/gallery_8.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+						<h3>Bake Potato Pizza</h3>
+						<span class="fh5co-price">$20<sup>.50</sup></span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+ -->
+ <div id="fh5co-featured-menu" class="fh5co-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 fh5co-heading animate-box">
+				<h2 style="font-family: 'Times New Roman', Times, serif;">What questions are we trying to answer? (Ask)</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<p>What is the sentiment of the average viewer in each Country?
+						<br>
+						What is the general twitter consensus on Top Gun: Maverick?
+						<br>
+						Which Country has the highest/lowest average likes?
+						<br>
+						Which Country has tweeted the most about Top Gun: Maverick?
+							</p>
+			<!--	</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		 </div>-->
+ <div id="fh5co-featured-menu" class="fh5co-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 fh5co-heading animate-box">
+				<h2 style="font-family: 'Times New Roman', Times, serif;">Data Collection (Prepare)</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<p>On January 6th 2023 I scraped 250,000 tweets using the snscrape Python library, this library uses Twitter's API. The tweet mining date range fell between May 27, 2022 (theatrical release date) to January 6, 2023. The image below is a portion of my Python script that scraped data off of twitter, and applied said data into a Python Pandas Dataframe.</p>
+						<div class="col-md-5 animate-box img-to-responsive">
+							<img src="images/twitterscraper.png" alt="">
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		 </div>
+
+
+
+		 <div id="fh5co-featured-menu" class="fh5co-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 fh5co-heading animate-box">
+						<h2 style="font-family: 'Times New Roman', Times, serif;">Data Assessment and Cleaning (Process)</h2>
+						<div class="row">
+							<div class="col-md-6">
+								<p>Mining 250,000 tweets resulted in data that was in desperate need of cleaning. Inspecting and removing rows that contained missing or invalid data was crucial before starting my analysis. A small amount of duplicate values were present in a few columns that should've only possessed unique values, the offending duplicates were then promptly removed. The usernames column had to be cleaned, as some tweets were included solely because the usernames contained the scraping keywords.  Upon further inspection it was clear that the locations column was going to be the biggest hurdle. This is because Twitter allows users to have any value for their location, which includes no location. Even though there are many users that use their phones GPS to automatically fill in their accurate location, there was a large amount of data in the location column that was incorrectly formatted, missing or incomprehensible. <br>
+									<br>
+									Part of my process for cleaning the data in the location column was using a geocoding package in Python. I specifically used the Nominatim geolocation service, through the GeoPy package. Using Python I was able to identify locations in mass quantity and extract additional location info based on the information that was provided. The image below is an example of the output from the Geocode script. </p>
+										<div class="col-md-5 animate-box img-to-responsive">
+							<img src="images/GeocodeExample.png" alt="">
+				
+								<div class="container">
+									<div class="row">
+										<div class="col-md-12 fh5co-heading animate-box">
+											<h2 style="font-family: 'Times New Roman', Times, serif;"></h2>
+											<div class="row">
+												<div class="col-md-6">
+													<p>As you can see in the above example, the "Original_Locations" column listed locations that are not real locations such as; "Anywhere with a screen" or "any pronouns" resulted in NaN values (missing) in the Geocoded_Locations, Latitude and Longitude column. This was monumental in distinguishing real locations from invalid location values because not removing these invalid locations would impact the veracity of the data. </p>
+																		
+												
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+				 <div id="fh5co-featured-menu" class="fh5co-section">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 fh5co-heading animate-box">
+								<h2 style="font-family: 'Times New Roman', Times, serif;">Data Preprocessing</h2>
+								<div class="row">
+									<div class="col-md-6">
+										<p> Before I am able to process the data through a NLP (Natural Language Preprocessing) model I first must prepare the data to be processed. Normalization, Tokenization and Enrichment are crucial preprocessing steps prior to passing data through an NLP model. Luckily, through the Python packages Transformers and PyTorch, I am able to preprocess the data quickly and effectively to allow us to start processing our data through the Hugging Face roBERTa model.
+									<!--		<br>
+											<br>
+											Test 
+												<div class="col-md-5 animate-box img-to-responsive">
+									<img src="images/" alt="">
+								</div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+		 </div>
+
+									<div id="fh5co-featured-menu" class="fh5co-section">
+										<div class="container">
+											<div class="row">
+												<div class="col-md-12 fh5co-heading animate-box">
+													<h2 style="font-family: 'Times New Roman', Times, serif;">Sentiment Analysis (Analyze)</h2>
+													<div class="row">
+														<div class="col-md-6">
+															<p>Finally, I can process the data through the NLP model to recieve a computed sentiment score. The model that I used was the multilingual XLM-roBERTa-base model from Hugging Face. This model was trained on ~198 million tweets and is finetuned for sentiment analysis. Using the multilingual version of the model was crucial as there was a portion of the data that was not in english. The image below is a portion of my Python script which is taking each tweet and passing it through the model to compute a sentiment score of 1 to 3, and then applying it to a "Sentiment_Score" column. The sentiment score legend is as follows, 1 for negative, 2 for neutral and 3 for positive.  </p>
+															<div class="col-md-5 animate-box img-to-responsive">
+																<img src="images/SentimentCodeExample.png" alt="">
+														</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											 </div>
+
+											 <div id="fh5co-featured-menu" class="fh5co-section">
+												<div class="container">
+													<div class="row">
+														<div class="col-md-12 fh5co-heading animate-box">
+															<h2 style="font-family: 'Times New Roman', Times, serif;">Visualization Dashboard (Share)</h2>
+															<div class="row">
+																<div class="col-md-6">
+																	<p>I decided to create a dashboard through Tableau to visualize this Data, empowering users of the dashboard to manipulate the visualizations displayed with ease. </p>
+																	<div class="col-md-5 animate-box img-to-responsive">
+																		<img src="" alt="">
+																		<p><a href="#dashboard" class="btn btn-primary btn-outline">Top Gun: Maverick Dashboard</a></p>
+															<!--
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													 </div>
+													-->
+
+
+
+
+													 <div id="fh5co-featured-menu" class="fh5co-section">
+														<div class="container">
+															<div class="row">
+																<div class="col-md-12 fh5co-heading animate-box">
+																	<h2 style="font-family: 'Times New Roman', Times, serif;">Questions Answered (Act)</h2>
+																	<div class="row">
+																		<div class="col-md-6">
+																			<p>What is the sentiment of the average viewer in each Country?
+																				<br> <br> The above dashboard gives you an average sentiment score from any country, for example if we were to pick South Korea, we would see that their Average Sentiment Score is 2.334. Using the Sentiment Legend (1 Negative, 2 Neutral, 3 Positive), we can deduct that the average viewer's sentiment in South Korea is fairly neutral, but leaning more towards positive than negative.
+																				<br> <br>What is the general twitter consensus on Top Gun: Maverick?
+																				<br><br> From my analysis, 50.2% of each tweet about Top Gun: Maverick was positive, 39.2% was neutral and 10.5% were negative. 
+																				<br> <br>Which Country has the highest/lowest average likes?
+																				<br> <br>The Country with the highest average likes is Belize with an average like count of 307.33. The Country with the lowest average likes is Turkmenistan with an average like count of 0.25.
+																				<br><br>Which Country has tweeted the most about Top Gun: Maverick?
+																				<br><br>The Country that has tweeted the most about Top Gun: Maverick is the United States. 
+													
+																					</p>
+																			<div class="col-md-5 animate-box img-to-responsive">
+																				<img src="images/TwitterWordCloud.png" alt="">
+																		</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															 </div>
+
+
+
+				
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div id="fh5co-started" class="fh5co-section animate-box" style="background-image: url(images/);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2 style="font-family: 'Times New Roman', Times, serif;">COVID-19 Vaccination Dashboard</h2>
+					<p>If you'd like to continue to on to my second portion of my portolio the button below will show you a COVID-19 Vaccination dashboard that I created through Tableau. The COVID-19 data used was from John Hopkins University of Medicine.</p>
+					<p><a href="Covid19.html" class="btn btn-primary btn-outline">COVID-19 Dashboard</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row copyright">
+		<div class="col-md-12 text-center">
+			
+			<p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<ul class="fh5co-social-icons">
+					<li><a href="https://www.linkedin.com/in/alec-rice/"><i class="icon-linkedin2"></i></a></li>
+				</ul>
+			</p>
+		</div>
+	</div>
+
+</div>
+</footer>
+</div>
+
+<div class="gototop js-top">
+<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.stellar.min.js"></script>
+<!-- Flexslider -->
+<script src="js/jquery.flexslider-min.js"></script>
+<!-- Main -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
