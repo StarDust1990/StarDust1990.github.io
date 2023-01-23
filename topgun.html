@@ -263,7 +263,7 @@
 								<h2 style="font-family: 'Times New Roman', Times, serif;">Data Preprocessing</h2>
 								<div class="row">
 									<div class="col-md-6">
-										<p> Before I am able to process the data through a NLP (Natural Language Preprocessing) model I first must prepare the data to be processed. Normalization, Tokenization and Enrichment are crucial preprocessing steps prior to passing data through an NLP model. Luckily, through the Python packages Transformers and PyTorch, I am able to preprocess the data quickly and effectively to allow us to start processing our data through the Hugging Face roBERTa model.
+										<p> Before I am able to process the data through a NLP (Natural Language Preprocessing) model I first must prepare the data to be processed. Normalization, Tokenization and Enrichment are important preprocessing steps prior to passing data through an NLP model. Luckily, through the Python packages Transformers and PyTorch, I am able to preprocess the data quickly and effectively to allow us to start processing our data through the Hugging Face roBERTa model.
 									<!--		<br>
 											<br>
 											Test 
@@ -283,7 +283,7 @@
 													<h2 style="font-family: 'Times New Roman', Times, serif;">Sentiment Analysis (Analyze)</h2>
 													<div class="row">
 														<div class="col-md-6">
-															<p>Finally, I can process the data through the NLP model to recieve a computed sentiment score. The model that I used was the multilingual XLM-roBERTa-base model from Hugging Face. This model was trained on ~198 million tweets and is finetuned for sentiment analysis. Using the multilingual version of the model was crucial as there was a portion of the data that was not in english. The image below is a portion of my Python script which is taking each tweet and passing it through the model to compute a sentiment score of 1 to 3, and then applying it to a "Sentiment_Score" column. The sentiment score legend is as follows, 1 for negative, 2 for neutral and 3 for positive.  </p>
+															<p>Finally, I can process the data through the NLP model to recieve a computed sentiment score. The model that I used was the multilingual XLM-roBERTa-base model from Hugging Face. This model was trained on ~198 million tweets and is finetuned for sentiment analysis. Using the multilingual version of the model was crucial as there is a portion of the data that is not in english. The image below is a portion of my Python script which is taking each tweet and passing it through the model to compute a sentiment score of 1 to 3, and then applying it to a "Sentiment_Score" column. The sentiment score legend is as follows, 1 for negative, 2 for neutral and 3 for positive.  </p>
 															<div class="col-md-5 animate-box img-to-responsive">
 																<img src="images/SentimentCodeExample.png" alt="">
 														</div>
