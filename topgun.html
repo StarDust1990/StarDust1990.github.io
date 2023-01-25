@@ -191,7 +191,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 fh5co-heading animate-box">
-				<h2 style="font-family: 'Times New Roman', Times, serif;">What questions are we trying to answer? (Ask)</h2>
+				<h2 style="font-family: 'Times New Roman', Times, serif;">What questions are we trying to answer?</h2>
 				<div class="row">
 					<div class="col-md-6">
 						<p>What is the sentiment of the average viewer in each Country?
@@ -212,7 +212,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 fh5co-heading animate-box">
-				<h2 style="font-family: 'Times New Roman', Times, serif;">Data Collection (Prepare)</h2>
+				<h2 style="font-family: 'Times New Roman', Times, serif;">Data Collection </h2>
 				<div class="row">
 					<div class="col-md-6">
 						<p>On January 6th 2023 I scraped 250,000 tweets using the snscrape Python library, this library uses Twitter's API. The tweet mining date range fell between May 27, 2022 (theatrical release date) to January 6, 2023. The image below is a portion of my Python script that scraped data off of twitter, and applied said data into a Python Pandas Dataframe.</p>
@@ -231,7 +231,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 fh5co-heading animate-box">
-						<h2 style="font-family: 'Times New Roman', Times, serif;">Data Assessment and Cleaning (Process)</h2>
+						<h2 style="font-family: 'Times New Roman', Times, serif;">Data Assessment and Cleaning </h2>
 						<div class="row">
 							<div class="col-md-6">
 								<p>Mining 250,000 tweets resulted in data that was in desperate need of cleaning. Inspecting and removing rows that contained missing or invalid data was crucial before starting my analysis. A small amount of duplicate values were present in a few columns that should've only possessed unique values, the offending duplicates were then promptly removed. The usernames column had to be cleaned, as some tweets were included solely because the usernames contained the scraping keywords.  Upon further inspection it was clear that the locations column was going to be the biggest hurdle. This is because Twitter allows users to have any value for their location, which includes no location. Even though there are many users that use their phones GPS to automatically fill in their accurate location, there was a large amount of data in the location column that was incorrectly formatted, missing or incomprehensible. <br>
@@ -280,7 +280,7 @@
 										<div class="container">
 											<div class="row">
 												<div class="col-md-12 fh5co-heading animate-box">
-													<h2 style="font-family: 'Times New Roman', Times, serif;">Sentiment Analysis (Analyze)</h2>
+													<h2 style="font-family: 'Times New Roman', Times, serif;">Sentiment Analysis</h2>
 													<div class="row">
 														<div class="col-md-6">
 															<p>Finally, I can process the data through the NLP model to recieve a computed sentiment score. The model that I used was the multilingual XLM-roBERTa-base model from Hugging Face. This model was trained on ~198 million tweets and is finetuned for sentiment analysis. Using the multilingual version of the model was crucial as there is a portion of the data that is not in english. The image below is a portion of my Python script which is taking each tweet and passing it through the model to compute a sentiment score of 1 to 3, and then applying it to a "Sentiment_Score" column. The sentiment score legend is as follows, 1 for negative, 2 for neutral and 3 for positive.  </p>
@@ -297,7 +297,7 @@
 												<div class="container">
 													<div class="row">
 														<div class="col-md-12 fh5co-heading animate-box">
-															<h2 style="font-family: 'Times New Roman', Times, serif;">Visualization Dashboard (Share)</h2>
+															<h2 style="font-family: 'Times New Roman', Times, serif;">Visualization Dashboard</h2>
 															<div class="row">
 																<div class="col-md-6">
 																	<p>I decided to create a dashboard through Tableau to visualize this Data, empowering users of the dashboard to manipulate the visualizations displayed with ease. </p>
@@ -320,7 +320,7 @@
 														<div class="container">
 															<div class="row">
 																<div class="col-md-12 fh5co-heading animate-box">
-																	<h2 style="font-family: 'Times New Roman', Times, serif;">Questions Answered (Act)</h2>
+																	<h2 style="font-family: 'Times New Roman', Times, serif;">Questions Answered</h2>
 																	<div class="row">
 																		<div class="col-md-6">
 																			<p>What is the sentiment of the average viewer in each Country?
